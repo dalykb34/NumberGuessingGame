@@ -10,6 +10,12 @@ namespace NumberGuessingGame
 
             string userInput = Console.ReadLine();
 
+            FavClasses(userInput);
+        }
+
+        public static void FavClasses(string userInput)
+        { 
+
             switch (userInput.ToLower()) 
             {
                 case "physical education":
